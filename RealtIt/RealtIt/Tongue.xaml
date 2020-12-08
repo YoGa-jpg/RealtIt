@@ -1,0 +1,37 @@
+﻿<UserControl x:Class="RealtIt.Tongue"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:RealtIt"
+             mc:Ignorable="d" d:DesignWidth="800" Height="992.432">
+    <Viewbox Margin="0,0,2,0">
+        <Grid HorizontalAlignment="Left" Height="101" Margin="0" VerticalAlignment="Top" Width="64">
+            <Border BorderBrush="#4E703E" BorderThickness="2 2 2 0" Height="69" VerticalAlignment="Top">
+                <Rectangle x:Name="RectPart" Fill="#292727" Stroke="#292727" StrokeThickness="4" StrokeDashArray="0" StrokeDashOffset="3" Margin="-2,-2,-2,0"/>
+            </Border>
+            <Border Margin="10,46,10,9" RenderTransformOrigin="0.5,0.5" Background="#292727" BorderThickness="2 0 0 2" BorderBrush="#4E703E">
+                <Border.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform/>
+                        <RotateTransform Angle="-46.3"/>
+                        <TranslateTransform/>
+                    </TransformGroup>
+                </Border.RenderTransform>
+                <Rectangle x:Name="TrianglePart" Fill="#292727" Stroke="#292727" StrokeThickness="4" StrokeDashArray="0" StrokeDashOffset="7" Margin="-2,0,0,-2"/>
+            </Border>
+            <Image Margin="10,10,10,45" Source="{Binding Path=imageSource}" x:Name="ger"/>
+            <Image x:Name="ArrowImage" HorizontalAlignment="Left" Source="/Resources/Images/Arrow.png" Height="21" Margin="46,48,0,0" VerticalAlignment="Top" Width="8" RenderTransformOrigin="0.5,0.5">
+                <Image.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform/>
+                        <RotateTransform Angle="0"/>
+                        <TranslateTransform/>
+                    </TransformGroup>
+                </Image.RenderTransform>
+            </Image>
+        </Grid>
+    </Viewbox>
+</UserControl>

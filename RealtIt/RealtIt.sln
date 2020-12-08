@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29503.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RealtIt", "RealtIt\RealtIt.csproj", "{3C87CAC6-DBD2-43A1-A4B5-9FF2D964C7FC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3C87CAC6-DBD2-43A1-A4B5-9FF2D964C7FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3C87CAC6-DBD2-43A1-A4B5-9FF2D964C7FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3C87CAC6-DBD2-43A1-A4B5-9FF2D964C7FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3C87CAC6-DBD2-43A1-A4B5-9FF2D964C7FC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F5638279-5442-4462-B6C5-706D002ED82D}
+	EndGlobalSection
+EndGlobal
